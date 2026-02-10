@@ -1,0 +1,34 @@
+{
+  "name": "camara-mcp-server",
+  "version": "2.0.0",
+  "description": "Remote MCP server for the CAMARA Project — The Telco Global API Alliance. Deployed on Cloudflare Workers.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "cf-typegen": "wrangler types"
+  },
+  "keywords": [
+    "camara",
+    "mcp",
+    "cloudflare-workers",
+    "telco",
+    "api",
+    "gsma",
+    "open-gateway",
+    "network-api",
+    "linux-foundation"
+  ],
+  "author": "Centillion.ai",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "typescript": "^5.7.0",
+    "wrangler": "^3.101.0"
+  }
+}
